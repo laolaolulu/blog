@@ -5,7 +5,7 @@ categories: [错误笔记]
 tags: [Hyper-V, Ubuntu, xrdp]
 ---
 
-### Hyper-V 通过快速安装官方提高的 Ubuntu 有时候登录(默认使用 xrdp)连接显示纯色背景没任何反应
+### Hyper-V 通过快速安装官方提供的 Ubuntu 有时候登录(默认使用 xrdp)连接显示纯色背景没任何反应
 
 #### 原因
 

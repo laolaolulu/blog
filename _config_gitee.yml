@@ -18,10 +18,10 @@ timezone: Asia/Shanghai
 
 title: 劳劳碌碌 # the main title
 
-tagline: 个人博客-技术分享 # it will display as the sub-title
+tagline: 李鹏的个人博客 # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  test
+  劳劳碌碌的个人博客-技术分享
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.

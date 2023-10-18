@@ -65,6 +65,14 @@ assign js = 'commons' %} {% endcase %} {% capture script %}/assets/js/dist/{{ js
 {% else %}
 <script defer src="{{ '/unregister.js' | relative_url }}"></script>
 {% endif %}
+<!-- AdSense -->
+{% if site.adsense != empty and site.adsense %}
+<script
+  async
+  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={site.adsense}}"
+  crossorigin="anonymous"
+></script>
+{% endif %}
 
 <!-- GA -->
 {% if site.google_analytics.id != empty and site.google_analytics.id %} {%

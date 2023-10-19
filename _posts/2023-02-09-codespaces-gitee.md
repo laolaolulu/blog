@@ -1,7 +1,7 @@
 ---
 title: Codespances使用git提交到gitee
 img_path: /assets/img/posts/20230209/
-categories: [奇技淫巧]
+categories: [雕虫小技]
 tags: [Codespances, git, gitee]
 ---
 
@@ -30,7 +30,7 @@ ssh -T git@gitee.com #测试配置是否成功
 3.  如果出现错误 :
 
     > git@gitee.com: Permission denied (publickey)
-    {: .prompt-danger }
+    > {: .prompt-danger }
 
     请检查上述注意事项:创建密钥时参数都为空、添加 gitee 公钥不要在仓库添加
 

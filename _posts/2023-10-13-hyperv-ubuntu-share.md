@@ -1,7 +1,7 @@
 ---
 title: Hyper-V虚拟机Ubuntu中访问windows中的文件
 img_path: /assets/img/posts/20231016/
-categories: [奇技淫巧]
+categories: [雕虫小技]
 tags: [Hyper-V, Ubuntu]
 ---
 

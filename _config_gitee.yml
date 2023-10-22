@@ -16,12 +16,12 @@ timezone: Asia/Shanghai
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: 劳劳碌碌 # the main title
+title: 程序员笔记 # the main title
 
 tagline: 李鹏的个人博客 # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  劳劳碌碌的个人博客-技术分享
+  程序员笔记-技术分享
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -34,7 +34,7 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: lipeng
-  email: lp3112@qq.com # change to your email address
+  email: laolaolulu@qq.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
     # https://twitter.com/username # change to your twitter homepage
@@ -75,7 +75,7 @@ avatar: "assets/img/favicons/apple-touch-icon.webp"
 toc: true
 
 comments:
-  active: giscus # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
+  active: #giscus # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
   # The active options are as follows:
   disqus:
     shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
@@ -85,10 +85,10 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: laolaolulu/laolaolulu.github.io # <gh-username>/<repo>
-    repo_id: R_kgDOI7nPiQ
-    category: General
-    category_id: DIC_kwDOI7nPic4CUHB-
+    repo: #laolaolulu/laolaolulu.github.io # <gh-username>/<repo>
+    repo_id: #R_kgDOI7nPiQ
+    category: #General
+    category_id: #DIC_kwDOI7nPic4CUHB-
     mapping: # optional, default to 'pathname'
     input_position: # optional, default to 'bottom'
     lang: # optional, default to the value of `site.lang`

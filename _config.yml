@@ -14,12 +14,12 @@ timezone: Asia/Shanghai
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: laolaolulu # the main title
+title: Programmer's Notes # the main title
 
 tagline: Li Peng's Personal Blog # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  技术分享
+  Programmer's Notes - Technology Sharing
 
 adsense: ca-pub-4487254871795017
 
@@ -34,7 +34,7 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: lipeng
-  email: lp3112@qq.com # change to your email address
+  email: laolaolulu@qq.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
     # - https://twitter.com/username # change to your twitter homepage

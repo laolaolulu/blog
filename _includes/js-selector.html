@@ -69,7 +69,7 @@ assign js = 'commons' %} {% endcase %} {% capture script %}/assets/js/dist/{{ js
 {% if site.adsense != empty and site.adsense %}
 <script
   async
-  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={site.adsense}}"
+  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{site.adsense}}"
   crossorigin="anonymous"
 ></script>
 {% endif %}

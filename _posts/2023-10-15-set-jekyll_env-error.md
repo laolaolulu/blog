@@ -14,11 +14,11 @@ JEKYLL_ENV=production : 无法将“JEKYLL_ENV=production”项识别为 cmdlet�
     + FullyQualifiedErrorId : CommandNotFoundException
 ```
 
-#### 原因
+## 原因
 
 这是 linux 环境设置环境变量的语法，我是在 windows 下执行的自然报错
 
-#### 解决方案
+## 解决方案
 
 windows 下 `powershell` 设置环境变量语法
 

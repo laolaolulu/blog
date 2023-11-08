@@ -12,7 +12,7 @@ tags: [Hyper-V, Ubuntu]
 1. Windows 下设置共享文件夹或者某个盘都可以
    需要共享的`文件夹=>右键=>属性=>共享` 点击共享按钮选择用户(建议不要使用 Everyone，直接使用当前 windows 登录的用户)
    ![addremote](windows-share.webp)
-2. 获取 windows 下的虚拟网卡的 ip 地址(我也尝试直接使用计算机名称但是不成功的)
+2. 获取 windows 下的虚拟网卡的 ip 地址(我也尝试直接使用计算机名称(NetBIOS)但是不成功的)
    ![addremote](windows-ip.webp)
 3. 到 Ubuntu 下执行命令
 

@@ -6,6 +6,7 @@ tags: [csharp,scrfd,OnnxRuntime]
 * [scrfd官网介绍文档](https://github.com/deepinsight/insightface/tree/master/detection/scrfd) 目前最优秀的人脸检测算法
 * 使用高性能的[OnnxRuntime](https://onnxruntime.ai/)推理模型,告别臃肿的opencv库
 * 使用[ImageSharp](https://github.com/SixLabors/ImageSharp)库来进行图片预处理(ps:图片预处理速度很慢各位有什么好的推荐下)
+* scrfd.onnx模型[下载](../face-model-download/#scrfd)
 
 ## 如何使用
 已发布到[nuget](https://www.nuget.org/packages/FaceTrain.OnnxRuntime/) 源码在[github](https://github.com/laolaolulu/FaceTrain/tree/master/csharp/OnnxRuntime)
@@ -22,11 +23,11 @@ using var net = new FaceTrain.OnnxRuntime.SCRFD(modelBytes);
 //执行推理拿到结果
 var faces = net.Detection(imgBytes);
 ```
-## 模型下载
+## [模型下载](../face-model-download)
 官方模型是用pytorch框架训练的,需要使用[scrfd2onnx.py](https://github.com/deepinsight/insightface/blob/master/detection/scrfd/tools/scrfd2onnx.py)将模型转换下
-作者已经转换好了可以直接下载使用
+作者已经转换好了可以直接[下载](../face-model-download)使用
 
-### scrfd2onnx踩坑经历
+### [scrfd2onnx踩坑经历](../run-scrfd2onnx)
 
 ## 测试用例
 [分别写了从摄像头获取图片以及从文件夹获取图片进行测试](https://github.com/laolaolulu/FaceTrain/blob/master/csharp/Tests/SCRFDTests.cs)

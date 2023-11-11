@@ -1,10 +1,9 @@
 ---
-title: C#(sharp)使用Opencv推理SCRFD模型
+title: OpenCvSharp4使用笔记
 categories: [人脸识别]
-tags: [OpenCvSharp4,SCRFD]
+tags: [opencv]
 ---
-# 使用c#来推理SCRFD模型来实现人脸检测(只使用opencv库)
-* [SCRFD官方介绍](https://github.com/deepinsight/insightface/tree/master/detection/scrfd)
+
 * [OpenCvSharp4官网简介](https://github.com/shimat/opencvsharp)
 
 

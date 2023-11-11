@@ -1,11 +1,12 @@
 ---
 title: 使用C#(sharp)-OpenCv(仅)来推理scrfd模型实现人脸检测
 categories: [人脸识别]
-tags: [csharp,scrfd,OpenCv]
+tags: [csharp,scrfd,opencv]
 ---
 * [scrfd官网介绍文档](https://github.com/deepinsight/insightface/tree/master/detection/scrfd) 目前最优秀的人脸检测算法
 * 使用[OpenCvSharp](https://github.com/shimat/opencvsharp)库来进行图片预处理以及模型推理
-
+* scrfd.onnx模型[下载](../face-model-download/#scrfd)
+  
 ## 如何使用
 已发布到[nuget](https://www.nuget.org/packages/FaceTrain.OpenCV/) 源码在[github](https://github.com/laolaolulu/FaceTrain/tree/master/csharp/OpenCV)
 ```bash
@@ -21,11 +22,11 @@ using var net = new FaceTrain.OpenCV.SCRFD(modelBytes);
 //执行推理拿到结果
 var faces = net.Detection(imgBytes);
 ```
-## 模型下载
+## [模型下载](../face-model-download)
 官方模型是用pytorch框架训练的,需要使用[scrfd2onnx.py](https://github.com/deepinsight/insightface/blob/master/detection/scrfd/tools/scrfd2onnx.py)将模型转换下
-作者已经转换好了可以直接下载使用
+作者已经转换好了可以直接[下载](../face-model-download)使用
 
-### scrfd2onnx踩坑经历
+### [scrfd2onnx踩坑经历](../run-scrfd2onnx)
 
 ## 测试用例
 [分别写了从摄像头获取图片以及从文件夹获取图片进行测试](https://github.com/laolaolulu/FaceTrain/blob/master/csharp/Tests/SCRFDTests.cs)

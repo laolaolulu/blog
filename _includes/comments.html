@@ -1,5 +1,9 @@
 <!--  The comments switcher -->
-{% if page.comments and site.comments.active %}
-  {% capture path %}comments/{{ site.comments.active }}.html{% endcapture %}
-  {% include {{ path }} %}
+{% if page.comments and site.comments.active %} {% capture path %}comments/{{
+site.comments.active }}.html{% endcapture %} {% include {{ path }} %} {% else %}
+<div style="text-align: center">
+  <a href="https://laolaolulu.github.io{{ page.url }}"
+    >跳转到github镜像可进行评论</a
+  >
+</div>
 {% endif %}

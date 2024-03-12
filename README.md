@@ -1,5 +1,5 @@
 [Chirpy Jekyll Theme](https://github.com/cotes2020/jekyll-theme-chirpy)
-
+ruby下载 https://rubyinstaller.org/
 ### 本地调试运行
 
 ```
